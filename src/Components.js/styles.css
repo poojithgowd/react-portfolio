@@ -1,0 +1,16 @@
+.bg{
+    background: #378cee;
+    
+}
+.align{
+    justify-content: center;
+}
+
+.card {
+    background-color: transparent;
+    border: none; /* Optional: Removes the card border as well */
+    color: white;
+}
+.card:hover {
+    transform: scale(1.1);
+}
