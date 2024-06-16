@@ -8,12 +8,17 @@ import styles from './Components.js/styles.css'
 import Contact from './Components.js/Contact';
 import Projects from './Components.js/Projects';
 import Achievements from './Components.js/Achievements';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const App = () => {
+  AOS.init();
   return (
     <div className='bg'>
-      <Nav/>  
-      <Home/> 
-      <Skills/>
+      
+      <Nav/>   
+       <Home/> 
+      {/* <Skills/> */}
       <Projects/>
       <Achievements/>
       <Contact/>

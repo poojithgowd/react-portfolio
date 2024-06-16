@@ -17,7 +17,7 @@ const Nav = () => {
               <li className="nav-item ms-2">
                 <a className="nav-link active" aria-current="page" href="#projects"><h4>Projects</h4></a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item ms-2">
                 <a className="nav-link active" aria-current="page" href="#achievements"><h4>Achievements</h4></a>
               </li>
               <li className="nav-item ms-2">
